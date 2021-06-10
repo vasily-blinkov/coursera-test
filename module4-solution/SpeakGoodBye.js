@@ -10,7 +10,7 @@
 	// See Lecture 52, part 1
 	var byeSpeaker = {
 		speak: function (name) {
-		  console.log(speakWord + " " + name);
+		  console.log(speakWord + " " + (name || "").replace(/^j/, "J"));
 		}
 	};
 
